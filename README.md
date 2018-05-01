@@ -22,7 +22,9 @@ Homework 10 ==> https://github.com/rmedinahu/cs350-props-03/tree/a1aca9269f43604
 7. Load the database with sample data containing a set of real estate properties, transactions, and messages: 
 
 `python manage.py loaddata property-testdata`
+
 `python manage.py loaddata transaction-testdata`
+
 `python manage.py loaddata message-testdata`
 
 8. Create a superuser for the app: `python manage.py createsuperuser`
