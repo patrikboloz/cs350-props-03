@@ -39,7 +39,7 @@ Useful reference: https://github.com/rmedinahu/cs350lab12/blob/master/README.md
 Add a search form to the property app that allows a user to query the **description** attribute of all property listings. Form should return all properties that contain at least one occurrence of the query in the description.
 
 
-### 1. Add a view to properties/views.py to display the search form and handle form submissions. It will do double duty. See geoquery/views.py (https://github.com/rmedinahu/cs350lab12/blob/master/geoquery/views.py) for example used in lab. There will be slight differences for this assignment.
+### 1. Add a view to properties/views.py to display the search form and handle form submissions. It will do double duty. See geoquery/views.py (https://github.com/rmedinahu/cs350lab12/blob/master/geoquery/views.py) for example used in lab. Your view should inherit from generic.FormView
 
 a. The form handling will need to be implemented in get_context_data for your view. It is in this override that you can fetch the url query parameters.
 
@@ -71,6 +71,7 @@ a. Same setup as the previous search component.
 
 ### 7. You can use the same template created in step 3 above as long as your view (step 5) creates the same template variable used in the previous search component.
 
-### 4. Modify properties/urls.py to route your new view and test.
+### 8. Modify properties/urls.py to route your new view and test.
 
+## Done.
 
