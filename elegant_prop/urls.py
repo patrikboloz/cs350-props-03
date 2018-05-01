@@ -28,5 +28,8 @@ urlpatterns = [
     # Transaction related urls.
     url(r'^transaction/', include('transactions.urls')),
 
+    # Messenger related urls.
+    url(r'^messenger/', include('messenger.urls')),
+    
     url(r'^admin/', admin.site.urls),
 ]

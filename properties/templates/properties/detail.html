@@ -18,8 +18,8 @@
         <p class="smaller"><a href="{% url 'properties:list' %}">back</a></p>
         <img src="{{ object.picture_url }}"/>
         <p>{{ object.address }}</p>
+        <p>{{ object.zip_code }}</p>
         <p>$ {{ object.price }}</p>
-        <p>{{ object.prop_type }}</p>
         <p>{{ object.description }}</p>
     </div>
 </div>

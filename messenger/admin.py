@@ -3,4 +3,8 @@ from __future__ import unicode_literals
 
 from django.contrib import admin
 
-# Register your models here.
+from .models import Message
+
+# Add an admin panel for the new Message model.
+
+admin.site.register(Message)
