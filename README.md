@@ -1,7 +1,7 @@
 Homework 11: Add Search and GIS Computatibilty to Elegant Props
 ====
 
-### Tasks 1 through 6 constitute Homework 11. __Due date is Thursday, May 10__ by 11:59pm. Submit by pushing to your github repository.
+### Tasks 1 through 8 constitute Homework 11. __Due date is Thursday, May 10__ by 11:59pm. Submit by pushing to your github repository.
 
 ### This final assignment is based on the ongoing Elegant Properties application we have been working on AND the Lab 12 (https://github.com/rmedinahu/cs350lab12/blob/master/README.md) Geopy exercise.
 
@@ -61,6 +61,8 @@ TODO: properties App Search by Geolocation
 
 Add a search form to the property app that allows a user to query those properties that are within range of a user inputted address and user inputted number of miles. For example, retrieve all properties that are within 200 miles of 1314 chavez st., las vegs, nm.
 
+Useful reference: https://github.com/rmedinahu/cs350lab12/blob/master/README.md
+
 * Please study Lab 12 to understand how to use Geopy to compute distance between two Location objects.
 
 ### 5. As in the previous search component, create view for displaying and handling a form for collecting an address AND number of miles (or range). The view should determine which properties are within range of ADDRESS by indicated MILES.
@@ -72,6 +74,12 @@ a. Same setup as the previous search component.
 ### 7. You can use the same template created in step 3 above as long as your view (step 5) creates the same template variable used in the previous search component.
 
 ### 8. Modify properties/urls.py to route your new view and test.
+
+### 9. Add a link to the home page (e.g., http://localhost:8000) for each search view created above.
+
+### 10. Add two unit tests to properties/tests.py. The tests should test the two views you created above. The key test is to count the number of properties stored in the context variable that stores the results of each query. See the following example in the lab12 repository for a guide. Note that you will have to construct a query parameter string relevant to your forms.
+
+https://github.com/rmedinahu/cs350lab12/blob/master/geoquery/tests.py
 
 ## Done.
 
