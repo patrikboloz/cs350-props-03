@@ -12,7 +12,7 @@ Homework 9 ==> https://github.com/rmedinahu/cs350-props-03/tree/89aaa33ae21c531a
 Homework 10 ==> https://github.com/rmedinahu/cs350-props-03/tree/a1aca9269f43604c87d1001cc13435f911042dde
 
 # Get Started
-1. __fork__ this repository (https://github.com/rmedinahu/cs350elegant-props-03) to your GitHub account (use the fork button at the top)
+1. __fork__ this repository (https://github.com/rmedinahu/cs350-props-03) to your GitHub account (use the fork button at the top)
 2. __clone__ your forked repo to your local working directory
 3. cd to repository/project root
 ... you know the drill...
