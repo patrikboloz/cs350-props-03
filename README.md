@@ -1,7 +1,7 @@
 Homework 11: Add Search and GIS Computatibilty to Elegant Props
 ====
 
-### Tasks 1 through 8 constitute Homework 11. __Due date is Thursday, May 10__ by 11:59pm. Submit by pushing to your github repository.
+### Tasks 1 through 10 constitute Homework 11. __Due date is Thursday, May 10__ by 11:59pm. Submit by pushing to your github repository.
 
 ### This final assignment is based on the ongoing Elegant Properties application we have been working on AND the Lab 12 (https://github.com/rmedinahu/cs350lab12/blob/master/README.md) Geopy exercise.
 
