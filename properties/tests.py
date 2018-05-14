@@ -32,7 +32,7 @@ class TestGeoqueryViews(TestCase):
     def test_GeoView(self):
         client = Client()
 
-        query_str = urlencode({'address':'748 dalbey dr, las vegas, nm', 'miles':10})
+        query_str = urlencode({'address':'748 dalbey dr, las vegas, nm', 'miles':20})
         
         url = reverse('properties:distance') + '?' + query_str
         
