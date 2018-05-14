@@ -1,0 +1,19 @@
+
+{% extends "core/base.html" %}
+
+{% block page_title %} Proper {% endblock page_title %}
+
+{% block page_header %}Elegant Props{% endblock page_header %}
+
+{% block content %}
+<div class="row">
+    <div class="col text-center">
+        <p>Welcome to Elegant Props where you are always treated like royalty.
+        	My name is Patrik Boloz and I will be your guide.</p>
+        <h1><a href="{% url 'properties:list' %}">See the properties</h3></a>
+        <h1><a href="{% url 'messenger:list' %}">View Messages</h1></a>
+        <h1><a href="{% url 'properties:search' %}">View Search</h1></a>
+        <h1><a href="{% url 'properties:distance' %}">View Distance for the Property</h3></a>
+    </div>
+</div>
+{% endblock content %}
